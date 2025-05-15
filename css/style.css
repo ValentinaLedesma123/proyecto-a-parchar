@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(241, 234, 223);
+}
+
+ul{
+    background-color: #FF910B;
+}
