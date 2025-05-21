@@ -28,13 +28,13 @@ ul{
 
 .banner-text {
     position: relative;
-    z-index: 1;
-    width: 50%;
-    background-color: #FF910B;
-    opacity: 0.8;
-    padding: 10px;
     top: 50%;
     left: 50%;
-    transform: translateY(50%);
-    text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+    transform: translate(-50%, 50%);
+    z-index: 1;
+    width: 50%;
+    background-color: rgba(255, 145, 11, 0.766);
+    padding: 10px;
+    text-align: center;
+
 }
