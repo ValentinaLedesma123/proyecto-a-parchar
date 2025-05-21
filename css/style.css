@@ -11,3 +11,30 @@ body{
 ul{
     background-color: #FF910B;
 }
+
+.banner {
+    position: relative;
+    min-height: 60vh;
+    overflow: hidden;
+}
+
+.banner video {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-text {
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    background-color: #FF910B;
+    opacity: 0.8;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translateY(50%);
+    text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+}
