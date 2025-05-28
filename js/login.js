@@ -23,13 +23,13 @@ form.addEventListener('submit', function(e) {
         successMessage.textContent = `Bienvenido, ${user.name}`;
         successMessage.style.display = 'block';
         message.textContent = '';
+        setTimeout(() => {
+            window.location.href = 'index.html';
+        }, 1000);
     } else {
         message.textContent = 'Invalid email or password';
         message.style.display = 'block';
         successMessage.textContent = '';
-        setTimeout(() => {
-            window.location.href = 'index.html';
-        }, 1000);
     }
 
 

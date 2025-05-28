@@ -49,4 +49,5 @@ ul{
 .img-fluid{
     width: 100%;
     height: 250px;
+    border-radius: 18px 0px 0 18px
 }
