@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(241, 234, 223);
+}
+header{
+    background-color: #FF910B;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
