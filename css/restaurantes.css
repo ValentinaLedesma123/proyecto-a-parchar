@@ -21,3 +21,12 @@ a{
         text-decoration: underline;
     }
 }
+.card-img-top {
+    height: 190px;
+    width: 110%;
+
+}
+
+.titulo {
+    font-size: large;
+}
